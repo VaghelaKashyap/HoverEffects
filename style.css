@@ -1,0 +1,379 @@
+            body{
+                background-image: -webkit-linear-gradient(left, rgb(51, 51, 51), rgb(151, 151, 151));
+            }
+           
+           
+            .box{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                top: -300px;
+            }
+            .box:hover > .con{
+                transition: all 0.3s linear;
+                top: 0px;
+            }
+            .con > .ma{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+            }
+            .a_1{
+                position: absolute;
+                left: 162px;
+            }
+            .a_2{
+                position: absolute;
+                left: 238px;
+            }
+           
+           
+            .box2{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con2{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                bottom: -300px;
+            }
+            .box2:hover > .con2{
+                transition: all 0.3s linear;
+                bottom: 0px;
+            }
+            .con2 > .ma{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+            }
+            .a_1{
+                position: absolute;
+                left: 162px;
+            }
+            .a_2{
+                position: absolute;
+                left: 238px;
+            }
+            
+            
+            .box3{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con3{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                left: -450px;
+            }
+            .box3:hover > .con3{
+                transition: all 0.3s linear;
+                left: 0px;
+            }
+            .con3 > .ma{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+            }
+            .a_1{
+                position: absolute;
+                left: 162px;
+            }
+            .a_2{
+                position: absolute;
+                left: 238px;
+            }
+            
+            
+            .box4{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con4{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                right: -450px;
+            }
+            .box4:hover > .con4{
+                transition: all 0.3s linear;
+                right: 0px;
+            }
+            .con4 > .ma{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+            }
+            .a_1{
+                position: absolute;
+                left: 162px;
+            }
+            .a_2{
+                position: absolute;
+                left: 238px;
+            }
+
+            .box5{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con5{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                top: 0px;
+                opacity: 0;
+            }
+            .box5:hover > .con5{
+                transition: all 0.3s linear;
+                opacity: 1;
+            }
+            .con5 > .mah{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+            }
+            .a_01{
+                position: absolute;
+                left: 122px; /* left: 162px;  */
+            }
+            .a_02{
+                position: absolute;
+                left: 278px; /* left: 238px; */
+            }
+            .box5:hover > .con5 > .a_01{
+                transition: all 0.3s linear;
+                left: 162px;
+            }
+            .box5:hover > .con5 > .a_02{
+                transition: all 0.3s linear;
+                left: 238px;
+            }
+
+            .box6{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con6{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                top: 0px;
+                opacity: 0;
+            }
+            .box6:hover > .con6{
+                transition: all 0.3s linear;
+                opacity: 1;
+            }
+            .con6 > .mah{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+            }
+            .ah1{
+                position: absolute;
+                left: 200px; /* left: 162px;  */
+            }
+            .ah2{
+                position: absolute;
+                left: 200px; /* left: 238px; */
+            }
+            .box6:hover > .con6 > .ah1{
+                transition: all 0.3s linear;
+                left: 162px;
+            }
+            .box6:hover > .con6 > .ah2{
+                transition: all 0.3s linear;
+                left: 238px;
+            }
+
+            .box7{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con7{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                opacity: 0;
+            }
+            .box7:hover > .con7{
+                transition: all 0.3s linear;
+                opacity: 1;
+            }
+            .con7 > .mah7{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+                transform: scale(3);
+            }
+            .ah7{
+                position: absolute;
+                left: 162px;
+            }
+            .ah07{
+                position: absolute;
+                left: 238px;
+            }
+            .box7:hover > .con7 > .mah7{
+                transition: 0.3s linear;
+                transform: scale(1);
+            }
+
+            .box8{
+                height: 300px;
+                width: 450px;
+                background-image: url('car.jpg');
+                background-size: 100% 100%;
+                border-radius: 20px;
+                margin: 25px;
+                overflow: hidden;
+                position: relative;
+                float: left;
+            }
+            .con8{
+                height: 300px;
+                width: 450px;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.523);
+                position: absolute;
+                opacity: 0;
+            }
+            .box8:hover > .con8{
+                transition: all 0.3s linear;
+                opacity: 1;
+            }
+            .con8 > .mah8{
+                height: 50px;
+                width: 50px;
+                border-radius: 50px;
+                background-color: white;
+                text-align: center;
+                line-height: 50px;
+                display: inline-block;
+                position: absolute;
+                top: 125px;
+                transform: scale(0);
+            }
+            .ah8{
+                position: absolute;
+                left: 162px;
+            }
+            .ah08{
+                position: absolute;
+                left: 238px;
+            }
+            .box8:hover > .con8 > .mah8{
+                transition: 0.3s linear;
+                transform: scale(1);
+            }
